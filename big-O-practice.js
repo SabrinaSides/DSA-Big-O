@@ -17,7 +17,7 @@ function isEven(value) {
     }
 }
 
-//Constant time 0(1) because we are only assessing one value with one equation
+//Constant time O(1) because we are only assessing one value with one equation
 
 // 3. Are you here?
 // What is the Big O of the following algorithm? Explain your answer
@@ -55,7 +55,7 @@ function naiveSearch(array, item) {
         }
     }
 }
-//Linear time 0(n) because it is iterating through the array until it finds a matching item
+//Linear time O(n) because it is iterating through the array until it finds a matching item
 
 // 6. Creating pairs:
 // What is the Big O of the following algorithm? Explain your answer
@@ -89,7 +89,7 @@ function compute(num) {
     return result;
 }
 
-//Linear 0(n)- the function is creating a result array by adding numbers to the array based on the index (fibonacci sequence)
+//Linear O(n)- the function is creating a result array by adding numbers to the array based on the index (fibonacci sequence)
 
 // 8. An efficient search
 // In this example, we return to the problem of searching using a more sophisticated approach than in naive search, above. Assume that the input array is always sorted. What is the Big O of the following algorithm? Explain your answer
@@ -126,7 +126,7 @@ function findRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 
-//Constant time 0(1)- the function is performingly only one task and the arr length does not affect the runtime
+//Constant time O(1)- the function is performingly only one task and the arr length does not affect the runtime
 
 // 10. What Am I?
 // What does the following algorithm do? What is the Big O of the following algorithm? Explain your answer
